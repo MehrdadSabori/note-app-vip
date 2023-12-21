@@ -9,5 +9,6 @@
 
 ### help project
 
-+ add note      → ctrl + Enter
-🗑 delete note   → duble click on note
+➕ add note      → ctrl + Enter
+
+ 🗑 delete note   → duble click on note
