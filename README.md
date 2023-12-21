@@ -5,6 +5,7 @@
 ## about project
 
 - just with js
+- responsive
 - one page 
 
 ### help project
