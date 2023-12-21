@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet"
+        type="text/css" />
+    <title>note app</title>
+</head>
+
+<body>
+    <!-- -----------------   header ------------------ -->
+    <header>
+        <div class="header-contaner">
+            <div class="textArea-and-icon">
+                <textarea name="to do " id="to-do" cols="30" rows="10" placeholder="write your note ..."></textarea>
+                <div class="add-icon"><i class="fa-solid fa-arrow-right"></i></div>
+            </div>
+            <hr />
+        </div>
+    </header>
+    <!-- ------------------   main ----------- -->
+    <main>
+        <div class="main-contaner">
+            <!-- <div class="rectangel-to-do">
+                <p class="text to-do-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quisquam
+                    deserunt corrupti nihil, rerum nisi earum Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cumque commodi at velit, sed consequatur facere officia quasi unde molestiae voluptatem quod Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Ex aperiam ipsa laboriosam optio officiis non
+                    quas quibusdam fugiat, labore alias quaerat molestiae et doloremque inventore sint libero? Quod,
+                    accusantium! Nulla!
+                    consequuntur.
+                </p>    
+                <div class="circle">
+                    <i class="fa-solid fa-check icon-check"></i>
+                </div>
+            </div> -->
+        </div>
+
+    </main>
+    <!-- ------------------------ modal ------------- -->
+    <div class="modal">
+        <div class="modal-rectangel rectangel-to-do">
+            <p class="text to-do-text text-modal">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quisquam
+                deserunt corrupti nihil, rerum nisi earum Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Cumque commodi at velit, sed consequatur facere officia quasi unde molestiae voluptatem quod Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Ex aperiam ipsa laboriosam optio officiis non
+                quas quibusdam fugiat, labore alias quaerat molestiae et doloremque inventore sint libero? Quod,
+                accusantium! Nulla!
+                consequuntur.
+            </p>
+            <div class="circle circle-modal-check">
+                <i class="fa-solid fa-check icon-check"></i>
+            </div>
+            <div class="circle circle-modal-xmark">
+                <i class="fa-solid fa-xmark icon-check"></i>
+            </div>
+            <div class="color-platte-contaner">
+                <div class="color-p color-target color-platte1" style="background-color: #C44569;"></div>
+                <div class="color-p color-target color-platte2" style="background-color: #786FA6;"></div>
+                <div class="color-p color-target color-platte3" style="background-color: #F19066;"></div>
+                <div class="color-p color-target color-platte4" style="background-color: #3DC1D3;"></div>
+                <div class="color-p color-target color-platte5" style="background-color: #546DE5;"></div>
+            </div>
+            <div class="trash-contaner">
+                <i class="fa-solid fa-close trash-icon" ></i>
+            </div>
+        </div>
+    </div>
+    <!-- -------------- help ----------- -->
+    <div class="help_contaner">
+        <span>help</span>
+        <div class="i_help_contaner del_help">
+            <i class="fa-solid fa-trash"></i>
+            <span>delete → duoble click on note</span>
+        </div>
+        <div class="i_help_contaner plus_help">
+            <i class="fa-solid fa-plus"></i>
+            <span> add new note → ctrl + Enter </span>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/9f68ed8050.js" crossorigin="anonymous"></script>
+    <script src="app.js" type="module"></script>
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+@media only screen and (max-width: 800px) {
+    #to-do {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    .to-do-text {
+        font-size: 1rem;
+    }
+
+    .main-contaner {
+        width: 90%;
+    }
+
+    .rectangel-to-do {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .circle-i {
+        transform: translate(310%, -190%);
+    }
+
+    .help p {
+        font-size: .7rem;
+    }
+
+    /* ------------ modal ---------- */
+    .circle-modal-check {
+        transform: translate(250%, -100%);
+    }
+
+    .circle-modal-xmark {
+        transform: translate(130%, -100%);
+    }
+
+    .fa-close {
+        transform: translate(600%, -1700%);
+    }
+
+    /* ------- help ---- */
+    .i_help_contaner:hover span{
+        width: 15rem;
+        font-size: .7rem;
+    }
+
+}
+
+@media only screen and (max-width: 745px) {
+    .main-contaner {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .header-contaner {
+        margin-top: 1.5rem;
+    }
+
+    hr {
+        margin-top: 2rem;
+    }
+
+    .main-contaner {
+        margin-top: 2rem;
+    }
+
+    #to-do {
+        font-size: .9rem;
+        width: 80%;
+        height: 4rem;
+    }
+
+    .to-do-text {
+        font-size: .9rem;
+    }
+
+}
