@@ -4,9 +4,10 @@
 
 ## about project
 
-- just with js
+- just with js pure
 - responsive
 - one page 
+- api
 
 ### help project
 
